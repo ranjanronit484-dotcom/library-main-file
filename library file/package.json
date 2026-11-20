@@ -1,0 +1,17 @@
+{
+  "name": "study-library-hub",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Smart Library Website & Management Portal with Real-Time Admin Theme, Logo, and Branding Customizer",
+  "scripts": {
+    "start": "node serve.js",
+    "serve": "node serve.js",
+    "deploy": "firebase deploy",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:firestore": "firebase deploy --only firestore"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.35.1",
+    "http-server": "^14.1.1"
+  }
+}
